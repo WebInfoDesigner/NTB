@@ -51,6 +51,13 @@
   --surface-color: #4668a2;
   --contrast-color: #ffffff;
 }
+.dark-background1 {
+  --background-color: #6f42c1e8;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #6f42c1cc;
+  --contrast-color: #ffffff;
+}
 
 /* Smooth scroll */
 :root {
@@ -144,6 +151,15 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   --background-color: #3d4d6a;
+  --heading-color: #ffffff;
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 15px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+.header1 {
+  --background-color: #6f42c1;
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
@@ -273,7 +289,7 @@ h6 {
   .navmenu .dropdown ul {
     margin: 0;
     padding: 10px 0;
-    background: var(--nav-dropdown-background-color);
+    background: #3d4d6a;
     display: block;
     position: absolute;
     visibility: hidden;
@@ -284,6 +300,7 @@ h6 {
     border-radius: 4px;
     z-index: 99;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        border: #ff904c 3px solid;
   }
 
   .navmenu .dropdown ul li {
@@ -291,10 +308,10 @@ h6 {
   }
 
   .navmenu .dropdown ul a {
-    padding: 10px 20px;
-    font-size: 15px;
+           padding: 6px 8px;
+        font-size: 12px;
     text-transform: none;
-    color: var(--nav-dropdown-color);
+    color: #fff;
   }
 
   .navmenu .dropdown ul a i {
@@ -850,7 +867,7 @@ section,
   width: 100%;
   min-height: 80vh;
   position: relative;
-  padding: 120px 0 60px 0;
+  padding: 120px 0 40px 0;
   display: flex;
   align-items: center;
 }

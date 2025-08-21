@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>NTB</title>
+  <title>NTB - Home</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -43,8 +43,16 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
+            <li class="dropdown">
+                <a href="#services"><span>Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                    <li><a href="Contingent-Workforce.html">Contingent Workforce</a></li>
+                    <li><a href="#">Payroll & HR Outsourcing</a></li>
+                    <li><a href="#">Learning, Development & Consulting</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -57,24 +65,34 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
+ 
     <section id="hero" class="hero section dark-background">
 
       <div class="container">
         <div class="row gy-4">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h3>HR Solutions Without Hassle. so that you can concentrate on excellence</h3>
-            <p style="font-size: 16px; font-family: sans-serif;font-weight: 500;color: #dbdbdb;">Our goal as a software solutions and IT staffing company is to help you quickly add known, skilled professionals to your internal team, so you can mitigate the risk of a new team member while hitting your deadlines. Our IT staffing services include; Contract Labor, Contract to Hire, Direct Hire, and Managed Staffing. See how our technology staffing solutions can help.</p>
-            
+          <div class="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h3>HR Solutions Without Hassle – So You Can Focus on Excellence</h3>
+            <p style="font-size: 16px; font-family: Poppins;font-weight: 500;color: #dbdbdb; line-height:1.8">At Nexus Talent Bridge, our mission is simple: to help you build stronger teams without the stress of lengthy hiring processes. As a trusted software solutions and IT staffing partner, we enable you to quickly onboard skilled, pre-vetted professionals who seamlessly integrate into your organization.
+             </p>
+              <p style="font-size: 15px; font-family:  'Poppins';font-weight: 400;color: #dbdbdb; line-height:1.8">
+
+                  Whether you need flexibility, long-term commitment, or complete staffing management, we’ve got you covered. Our IT staffing services include:<br />
+                  <i class="bi bi-check2-all"></i>	<span style="color:#ffca2a"><i>Managed Staffing</i></span> – <span style="font-size:14px;">End-to-end workforce management tailored to your goals.</span><br />
+                  <i class="bi bi-check2-all"></i>	<span style="color:#ffca2a"><i>Contract Staffing</i></span> – <span style="font-size:14px;">On-demand talent for your immediate project needs.</span><br />
+                  <i class="bi bi-check2-all"></i>	<span style="color:#ffca2a"><i>Contract-to-Hire</i></span> – <span style="font-size:14px;">Evaluate candidates before making a long-term commitment.</span><br />
+                  <i class="bi bi-check2-all"></i>	<span style="color:#ffca2a"><i>Direct Hire</span></i> – <span style="font-size:14px;">Find the right fit for your permanent roles.</span>
+                  <br/><br />
+                  <span style="font-size: 16px; font-family: sans-serif;font-weight: 500;color: #dbdbdb; line-height:1.8">With our expertise, you can reduce hiring risks, accelerate project delivery, and stay focused on achieving excellence.</span>
+              </p>
           </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
+            <div class="col-lg-4 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
                 <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
             </div>
         </div>
 
       </div>
 
-    </section><!-- /Hero Section -->
+    </section>
 
     
     <!-- About Section -->
@@ -106,11 +124,11 @@
 
 
     <!-- Work Process Section -->
-    <section id="work-process" class="work-process section light-background">
+    <section id="services" class="work-process section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Our Solutions</h2>
         <p>From temporary and contract employment to fill the gaps in your workforce, recruiting the best talents for your organization’s growth, improving the employee experience to a complete payroll outsourcing platform, we are committed.</p>
       </div><!-- End Section Title -->
 
@@ -256,9 +274,7 @@
 
   </main>
 
-  <footer id="footer" class="footer" style="background:#3c4c6926">
-
-  
+  <footer id="footer" class="footer" style="background:#3c4c6926"> 
 
     <div class="container footer-top">
       <div class="row gy-4">
