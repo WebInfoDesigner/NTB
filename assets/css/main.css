@@ -178,6 +178,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+    border-bottom: 1px solid #436cb4;
 }
 .header1 {
   --background-color: #6f42c1;
@@ -187,6 +188,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+border-bottom: 1px solid #451e8d;
 }
 .header2 {
   --background-color: #009490f7;
@@ -196,6 +198,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+    border-bottom: 1px solid #0a8582;
 }
 .header3 {
   --background-color: #ce5691;
@@ -205,6 +208,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+border-bottom: 1px solid #a1356a;
 }
 .header4 {
   --background-color: #218da2;
@@ -214,13 +218,14 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+    border-bottom: 1px solid #2b7785;
 }
 .header .logo {
   line-height: 1;
 }
 
 #header .logo img {
-  max-height: 100px;
+  max-height: 80px;
   margin-right: 8px;
 }
 
@@ -269,7 +274,7 @@ h6 {
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: #313f58; /*rgba(255, 255, 255, 0);*/
   --heading-color: #ffffff;
   --nav-color: #ffffff;
 }
@@ -846,7 +851,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 40px 0;
   scroll-margin-top: 88px;
   overflow: clip;
 }
@@ -1331,7 +1336,7 @@ section,
 
 .work-process .steps-image {
   position: relative;
-  height: 280px;
+  height: 230px;
 }
 
 .work-process .steps-image img {
@@ -1373,7 +1378,7 @@ section,
 .work-process .steps-content p {
   font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .work-process .steps-features .feature-item {
